@@ -16,15 +16,10 @@
 
     $(".circle1").mouseenter(function () {
         $("#note1").get(0).play();
-    });
-    $(".circle1").mouseleave(function () {
         $(this).addClass(classes1[Math.floor(Math.random() * classes1.length)]);
         $(this).removeClass("circle1");
-    })
-        
-        
-    
-
+    });
+  
     $(".circle2").mouseenter(function () {
         
         $("#note2").get(0).play();
